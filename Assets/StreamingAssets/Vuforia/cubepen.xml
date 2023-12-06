@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="BeatingHeart" size="50.000000 50.000000"/>
+        <ImageTarget name="HumanHeart" size="25.000000 25.000000"/>
+        <ImageTarget name="markerpen.Back" size="10.000000 10.000000"/>
+        <ImageTarget name="markerpen.Right" size="10.000000 10.000000"/>
+        <ImageTarget name="markerpen.Front" size="10.000000 10.000000"/>
+        <ImageTarget name="markerpen.Left" size="10.000000 10.000000"/>
+        <MultiTarget name="markerpen">
+            <Part name="markerpen.Left" translation="-5.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="markerpen.Right" translation="5.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="markerpen.Front" translation="0 0 5.0" rotation="AD: 1 0 0 0"/>
+            <Part name="markerpen.Back" translation="0 0 -5.0" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
